@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 18.6.0
 
-      - uses: pnpm/action-setup@v2.2.4
+      - uses: pnpm/action-setup@v2.4.0
         with:
           version: latest
           run_install: false
@@ -60,7 +60,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v2.2.4
+      - uses: pnpm/action-setup@v2.4.0
         with:
           version: latest
           run_install: false
